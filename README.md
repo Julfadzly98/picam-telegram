@@ -34,3 +34,8 @@ cd /
 cd home/pi/bbt
 sudo python bbt.py
 cd /
+
+
+
+6466073347:AAFfHoM0BcSI6UONlQCgSTk4ILkRJ_Gj3uU
+6398307452
