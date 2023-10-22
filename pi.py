@@ -42,6 +42,11 @@ while True:
     success = capture_and_send_image()
     if success:
         result = "Yes"
+        #https://docs.google.com/forms/d/e/1FAIpQLSf1fiB4uWz5OsGLJVIpPi36h7paUG2kRBad-Pdm_CCZdAL0ZQ/formResponse?usp=pp_url&entry.1472446157={}&submit=Submit
+        
+        form_url = "https://docs.google.com/forms/d/e/1FAIpQLSf1fiB4uWz5OsGLJVIpPi36h7paUG2kRBad-Pdm_CCZdAL0ZQ/formResponse?usp=pp_url&entry.1472446157={}&submit=Submit".format(result)
+    	request.urlopen(form_url)
+    	print("done")
     else:
         result = "No"
     print(f"Image sent successfully? {result}")
