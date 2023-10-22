@@ -1,3 +1,5 @@
+#pip install picamera python-telegram-bot
+
 import time
 import picamera
 import requests
