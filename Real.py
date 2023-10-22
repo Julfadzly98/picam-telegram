@@ -11,6 +11,9 @@ camera = PiCamera()
 bot_token = '5731951595:AAHRe31htcyq1e4ma9xfftN12cA1ggnlNDo'
 chat_id = '187740907'
 
+#6613591889:AAHs4CLWbRMXmr5c3Xs0oO7WOqv-biXxyIc
+#6398307452
+
 # Define the URL for the Telegram API
 telegram_api_url = f'https://api.telegram.org/bot{bot_token}/sendPhoto'
 
