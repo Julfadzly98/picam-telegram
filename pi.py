@@ -8,9 +8,12 @@ import os
 from telegram import Bot
 
 # Replace with your Telegram Bot API token
-TELEGRAM_API_TOKEN = 'YOUR_TELEGRAM_API_TOKEN'
+TELEGRAM_API_TOKEN = '5642615236:AAG6x-p2z1Q-nj9anic2N3GTM_gDR3D7Pno'
 # Replace with your chat ID
-TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID'
+TELEGRAM_CHAT_ID = '187740907'
+
+#'5642615236:AAG6x-p2z1Q-nj9anic2N3GTM_gDR3D7Pno'
+#'187740907'
 
 # Initialize the Telegram Bot
 bot = Bot(token=TELEGRAM_API_TOKEN)
